@@ -17,7 +17,7 @@ npm install msg91 --save
 ### Send SMS
 
 ```javascript
-var msg91 = require("msg91")("API_KEY", "SENDER_ID", "ROUTE_NO" );
+var msg91 = require("msg91")("AUTH_KEY", "SENDER_ID", "ROUTE_NO" );
 
 
 // Mobile No can be a single number, list or csv string
@@ -63,3 +63,9 @@ msg91.getBalance("ROUTE_NO", function(err, msgCount){
 4 - Transactional Route
 ```
 
+# Msg91 Account Details
+Signup (https://msg91.com/signup/nodejs)
+
+
+# Msg91 Api Doc for other platforms
+Api (http://api.msg91.com/apidoc)
